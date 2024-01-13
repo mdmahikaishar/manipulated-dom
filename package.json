@@ -1,0 +1,27 @@
+{
+  "name": "manipulated-dom",
+  "version": "0.0.0",
+  "description": "Document manupulation using vanila javascript",
+  "author": "mdmahikaishar <mdmahikaishar@gmail.com>",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "tsx ",
+    "lint": "tsc --noEmit",
+    "build": "tsup ./src/index.ts --format cjs,esm --dts"
+  },
+  "keywords": [
+    "manipulated-dom",
+    "dom-manupulation",
+    "document",
+    "dom-element",
+    "html",
+    "mdom"
+  ],
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.1.6"
+  }
+}
